@@ -1,13 +1,15 @@
 body {
-    background-image: url('C:/Users/Admin/Desktop/MessageService/css/img/header.jpg');
-	background-repeat:no-repeat;
+    background-image: url('img/header.jpg');
+background-repeat:no-repeat;
     background-size:cover;
 	font-family: 'ithra';
+	position:fixed;
+   bottom:0px;
 }
 
 @font-face {
 	font-family: 'ithra';
-	src: url('C:/Users/Admin/Desktop/MessageService/css/font/ithra-light-webfont.ttf');
+	src: url('font/ithra-light-webfont.ttf');
 }
 .corner {
     border-radius: 25px;
@@ -31,7 +33,7 @@ font-size: 15px;
 	position: relative;
 	text-align: center;
 	display: block;
-    right: 60px;
+    right: -230px;
 	bottom: -10px;
     padding-left: 80px;
 	margin: auto;
@@ -69,9 +71,10 @@ h1 {
 	position: relative;
 	text-align: center;
 	display: block;
-	width: 50%;
-    padding-top: 380px;
-    padding-right: 30px;
+	width: 100%;
+	right: -200px;
+    padding-top: 290px;
+    padding-right: 50px;
     padding-bottom: 50px;
     padding-left: 80px;
 	margin: auto;
@@ -87,6 +90,7 @@ h1 {
 	margin: auto;
 	font-size: 30px;
 	font-weight: normal;
+	
 }
 .center3{
 	position: relative;
@@ -101,8 +105,8 @@ h1 {
 }
 .topright {
     position: absolute;
-    top: -129px;
-    right: -100px;
+    top: -120px;
+    right: -700px;
 	display: block;
 	text-indent: -0px;
 	float:right;
@@ -118,15 +122,6 @@ img {
     color: white;
 	font-weight: bold;
 }
-.header{
-    position: relative;
-    width: 100%;
-}
-.header img {
-    float: right;
-    padding-right: 6%;
-
-}
 
 p {
     font-family: 'ithra';
@@ -141,4 +136,3 @@ p {
 	text-shadow: 2px 2px rgba(0,0,0,0.3);
 	
 }
-
