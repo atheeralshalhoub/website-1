@@ -34,6 +34,7 @@ background-repeat:no-repeat;
     border: 2px solid #fff700; /*Yellow */
     border-radius: 12px;
     font-size: 16px;
+	
 }
 
 .button:hover {
@@ -88,6 +89,7 @@ h1 {
 	display: block;
 	width: 100%;
 	right: -200px;
+	top: 100px;
     padding-top: 290px;
     padding-right: 50px;
     padding-bottom: 50px;
@@ -100,8 +102,10 @@ h1 {
 	position: relative;
 	text-align: center;
 	display: block;
-    right: -340px;
+    right: -250px;
+	top: 100px;
     padding-left: 80px;
+	padding-bottom: 10px;
 	margin: auto;
 	font-size: 30px;
 	font-weight: normal;
@@ -111,7 +115,7 @@ h1 {
 	position: relative;
 	text-align: center;
 	display: block;
-    right: -500px;
+    right: -230px;
 	bottom: -10px;
     padding-left: 80px;
 	margin: auto;
