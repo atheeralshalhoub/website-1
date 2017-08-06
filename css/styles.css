@@ -1,0 +1,144 @@
+body {
+    background-image: url('C:/Users/Admin/Desktop/MessageService/css/img/header.jpg');
+	background-repeat:no-repeat;
+    background-size:cover;
+	font-family: 'ithra';
+}
+
+@font-face {
+	font-family: 'ithra';
+	src: url('C:/Users/Admin/Desktop/MessageService/css/font/ithra-light-webfont.ttf');
+}
+.corner {
+    border-radius: 25px;
+    background: rgba(255,255,255,0.3);
+    padding: 20px; 
+    width: 500px;
+    height: 10px;    
+}
+.corner2 {
+    border-radius: 25px;
+    background: transparent;
+    padding: 20px; 
+    width: 100px;
+    height: 20px;  
+    border: 2px solid #fff700;	
+}
+.under {
+text-decoration: underline;	
+font-size: 15px;
+
+	position: relative;
+	text-align: center;
+	display: block;
+    right: 60px;
+	bottom: -10px;
+    padding-left: 80px;
+	margin: auto;
+	text-shadow: 2px 2px rgba(0,0,0,0.3);
+
+	font-weight: normal; !important 
+
+}
+h1 {
+    color: white;
+	font-family: 'ithra';
+}
+.menu{
+    position: relative;
+    width: 100%;
+    margin-top: 0%;
+	
+}
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 35px;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.center{
+	position: relative;
+	text-align: center;
+	display: block;
+	width: 50%;
+    padding-top: 380px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+	margin: auto;
+	font-size: 30px;
+	font-weight: normal; !important 
+}
+.center2{
+	position: relative;
+	text-align: center;
+	display: block;
+    right: -340px;
+    padding-left: 80px;
+	margin: auto;
+	font-size: 30px;
+	font-weight: normal;
+}
+.center3{
+	position: relative;
+	text-align: center;
+	display: block;
+    right: -500px;
+	bottom: -10px;
+    padding-left: 80px;
+	margin: auto;
+	font-size: 30px;
+	font-weight: normal; !important 
+}
+.topright {
+    position: absolute;
+    top: -129px;
+    right: -100px;
+	display: block;
+	text-indent: -0px;
+	float:right;
+
+}
+
+img {
+ position: relative;
+ width: 400px;
+ height: 400px;
+}
+.thick {
+    color: white;
+	font-weight: bold;
+}
+.header{
+    position: relative;
+    width: 100%;
+}
+.header img {
+    float: right;
+    padding-right: 6%;
+
+}
+
+p {
+    font-family: 'ithra';
+    font-size: 20px;
+	color: white;
+	border:0;
+	width : 162px;
+	height : 113px;
+	margin : 0;
+	padding : 0;
+	font-weight: normal; 
+	text-shadow: 2px 2px rgba(0,0,0,0.3);
+	
+}
+
