@@ -58,6 +58,19 @@ font-size: 15px;
 	font-weight: normal !important; 
 
 }
+
+.under:hover {
+    text-decoration: underline;	
+    color: #050035;
+}
+
+.thick:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+
 h1 {
     color: white;
 	font-family: 'ithra';
@@ -144,6 +157,8 @@ img {
     color: white;
 	font-weight: bold;
 }
+
+
 
 p {
     font-family: 'ithra';
