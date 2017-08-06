@@ -115,8 +115,11 @@ h1 {
 
 img {
  position: relative;
- width: 400px;
- height: 400px;
+ width: 484px;
+ height: 229px;
+ overflow : hidden;
+ padding-top : 100px;
+ padding-right : 100px;
 }
 .thick {
     color: white;
