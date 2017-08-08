@@ -184,21 +184,22 @@ h1 {
 	font-size: 20px;
 	font-weight: normal!important; 
 }
-.topright {
-    position: absolute;
-    top: -120px;
-    right: -700px;
+top: -50px;
+    right: -500px;
 	display: block;
 	text-indent: -0px;
 	float:right;
-
 }
 
 img {
  position: relative;
- width: 400px;
- height: 400px;
+  width: 200px;
+ height: 95px;
+padding-top : 50px;
+ padding-right : 50px;
+padding-left:400px;
 }
+
 .thick {
     color: white;
 	font-weight: bold;
