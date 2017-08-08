@@ -6,7 +6,37 @@ body {
 	position:fixed;
    bottom:0px;
 }
+.vertical label{
+  display: block;
+  float:right;
+  font-family: 'ithra';
+  font-size: 0px;
+  font-weight:normal !important;
+  left:320px;
+  top: 0px;
+  text-indent: -40px;
 
+}
+}
+.vertical a{
+	  display: block;
+  font-family: 'ithra';
+  font-size: 5px;
+  font-weight:normal !important;
+  left:320px;
+  top: -40px;
+  text-indent: -22px;
+
+}
+.vertical input {
+  width: 9px;
+  height: 9px;
+  margin:0;
+  vertical-align: middle;
+  position: relative;
+  top: -36px;
+  *overflow: hidden;
+}
 @font-face {
 	font-family: 'ithra';
 	src: url('font/ithra-light-webfont.ttf');
@@ -240,7 +270,7 @@ label {
 #wrapper2{
 	
 	right: -400px;
-	top: -10px;
+	top: 40px;
 	height: 625px;	
 	margin: 0px auto;	
 	width: 550px;
@@ -265,12 +295,21 @@ label {
 #wrapper2 input:not([type="submit"]){
 	width: 100%;
 	padding:10px;
-    width: 300px;
+    width: 290px;
     height: 15px;
 	 border-radius: 15px;
       background: rgba(255,255,255,0.8);
 	   border: 2px solid #fff700;
 	 left:190px;
+
+	
+}
+
+#wrapper2 input:([type="checkbox"]){
+	width: 100%;
+	padding:0px;
+    height: 5px;
+	 left:-190px;
 
 	
 }
