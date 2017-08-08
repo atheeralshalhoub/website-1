@@ -1,0 +1,104 @@
+html, body {
+  height: 100%;
+  margin: 0;
+   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'ithra';
+  text-align: center;
+}
+
+@font-face {
+	font-family: 'ithra';
+	src: url('font/ithra-light-webfont.ttf');
+}
+
+header {
+    height: 300px;
+    background-image: url('img/header.jpg');
+    color: white;
+  text-align: center;
+}
+
+.content {
+  flex:1;
+}
+.content-inside {
+  padding: 20px;
+}
+.footer {
+  height: 50px;
+  margin-top: -50px;
+  background: #4b4b4b;
+  color: white;
+  text-align: center;
+   padding-top: 10px;
+   font-size: 15px; 
+}
+
+.title {
+  color: white;
+  text-align: center;
+   padding-top: 10px;
+   font-size: 70px;
+   padding-top:120px;
+   font-weight: normal !important;
+   text-shadow: 2px 2px rgba(0,0,0,0.3);
+}
+
+.navbar {
+  position: absolute;
+  overflow: hidden;
+  top: 35px;
+  left: 10px; 
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topright {
+    top: -250px;
+    right: -210px;
+	display: block;
+	text-indent: -0px;
+	float:right;
+
+}
+
+img {
+
+ width: 200px;
+ height: 95px;
+ padding-right : 50px;
+ padding-top : 50px;
+}
+
+.thick {
+    color: white;
+	font-weight: bold;
+}
+
+.thick:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.description{
+	position: relative;
+	text-align: center;
+	display: block;
+	width: 100%;
+    padding-bottom: 50px;
+	margin: auto;
+	font-size: 20px;
+    font-weight: normal !important;
+    color: #050035;
+}
+
